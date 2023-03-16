@@ -1,0 +1,84 @@
+{
+  "type": "object",
+  "properties": {
+    "Account User Name": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Customer Reference": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Manufacturer": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Name/Description": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Part Number": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Serial Number": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "DOM": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Expiry Date": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Last Inspection Date": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Last Inspection Result": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Grouping": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    },
+    "Photo": {
+      "type": "string",
+      "pattern": "(?!^\\d+$)^.+$"
+    }
+  },
+  "required": [
+    "Account User Name",
+    "Customer Reference",
+    "Manufacturer",
+    "Name/Description",
+    "Part Number",
+    "Serial Number",
+    "DOM",
+    "Expiry Date",
+    "Last Inspection Date",
+    "Last Inspection Result",
+    "Grouping",
+    "Photo"
+  ],
+  "errorMessage": {
+    "properties": {
+      "Account User Name": "Account User Name should be of type STRING",
+      "Customer Reference": "Customer Reference should be of type STRING",
+      "Manufacturer": "Manufacturer should be of type STRING",
+      "Name/Description": "Name/Description should be of type STRING",
+      "Part Number": "Part Number should be of type STRING",
+      "Serial Number": "Serial Number should be of type STRING",
+      "DOM": "DOM should be of type STRING",
+      "Expiry Date": "Expiry Date should be of type STRING",
+      "Last Inspection Date": "Last Inspection Date should be of type STRING",
+      "Last Inspection Result": "Last Inspection Result should be of type STRING",
+      "Grouping": "Grouping should be of type STRING",
+      "Photo": "Photo should be of type STRING"
+    }
+  },
+  "additionalProperties": false
+}
